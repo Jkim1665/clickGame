@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "name": "Pooh",
+      "image": "pooh.png"
+    },
+    {
+      "id": 2,
+      "name": "Pluto",
+      "image": "pluto.png"
+    },
+    {
+      "id": 3,
+      "name": "Mickey",
+      "image": "Mickey_Mouse.png"
+    },
+    {
+      "id": 4,
+      "name": "Minnie",
+      "image": "minnie_mouse.png"
+    },
+    {
+      "id": 5,
+      "name": "Donald",
+      "image": "donald.png"
+    },
+    {
+      "id": 6,
+      "name": "Daisy",
+      "image": "daisy.png"
+    },
+    {
+      "id": 7,
+      "name": "Pinocchio",
+      "image": "pinocchio.png"
+    },
+    {
+      "id": 8,
+      "name": "Dumbo",
+      "image": "dumbo.png"
+    },
+    {
+      "id": 9,
+      "name": "Peter Pan",
+      "image": "peter_pan.png"
+    },
+    {
+      "id": 10,
+      "name": "Goofy",
+      "image": "goofy.png"
+    },
+    {
+      "id": 11,
+      "name": "Lady & the Tramp",
+      "image": "lady_tramp.png"
+    },
+    {
+      "id": 12,
+      "name": "Bambi",
+      "image": "bambi.png"
+    }
+  
+  ]
+  
