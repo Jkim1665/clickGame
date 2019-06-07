@@ -9,22 +9,22 @@ import images from "./images.json";
 class App extends Component {
 
   state = {
-    friends,
-    clickedFriends: [],
+    images,
+    clickedImages: [],
     score: 0,
     highscore: 0
   };
-     // Shuffle the friend cards when clicked
-     clickedFriend = () => {
-      const shuffle = this.state.friends;
+     // Shuffle the image cards when clicked
+     clickedImage = () => {
+      const shuffle = this.state.images;
   
       shuffle.forEach(() => {
-        this.setState({friend: shuffle.sort(() => Math.random() - 0.5)
+        this.setState({image: shuffle.sort(() => Math.random() - 0.5)
         })
       })
     };
   
-    // Map over this.state.friends and render a FriendCard component for each friend object
+    // Map over this.state.images and render a FriendCard component for each friend object
     render() {
       return (
         <div>
@@ -32,13 +32,13 @@ class App extends Component {
           <Jumbotron />
           <Wrapper>
   
-            {this.state.friends.map(friend => (
-              <FriendCard
-                clickedFriend={this.clickedFriend}
-                id={friend.id}
-                key={friend.id}
-                name={friend.name}
-                image={friend.image}
+            {this.state.images.map(image => (
+              <ImageCard
+                clickedImage={this.clickedImage}
+                id={image.id}
+                key={image.id}
+                name={image.name}
+                image={image.image}
               />
             ))}
           </Wrapper></div>
